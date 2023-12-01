@@ -1,0 +1,8 @@
+host:
+  rpm:
+    build:
+    - shim-unsigned-x64.spec
+source:
+  files:
+  - url: https://github.com/rhboot/shim/releases/download/@VERSION@/shim-@VERSION@.tar.bz2
+    sha512: shim-unsigned-x64-@VERSION@.tar.bz2.sha512
