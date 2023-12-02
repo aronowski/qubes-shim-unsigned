@@ -31,11 +31,8 @@ Source1:	qubes-ca.cer
 Source2:	%{dbxfile}
 %endif
 Source3:	sbat.qubes.csv
-Source4:	shim.patches
 
 Source100:	shim-find-debuginfo.sh
-
-%include %{SOURCE4}
 
 BuildRequires:	gcc make
 BuildRequires:	elfutils-libelf-devel
