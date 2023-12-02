@@ -20,7 +20,7 @@
 
 Name:		shim-unsigned-%{efiarch}
 Version:	@VERSION@
-Release:	@REL@
+Release:	@REL@%{dist}
 Summary:	First-stage UEFI bootloader
 ExclusiveArch:	x86_64
 License:	BSD
